@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-03-04T17:02:07.662106",
+  "llm_name": "gpt4",
+  "cag_config": {
+    "cache_size": 1000000,
+    "context_window": 8192,
+    "preload_chunk_size": 512
+  },
+  "rag_config": {
+    "retriever_type": "hybrid",
+    "max_documents": 5,
+    "sparse_config": {
+      "type": "bm25",
+      "b": 0.75,
+      "k1": 1.5
+    },
+    "dense_config": {
+      "model": "text-embedding-3-small",
+      "dimensions": 1536
+    }
+  },
+  "results": [
+    {
+      "timestamp": "2025-03-04T17:02:03.965546",
+      "query": "What are the main advantages of the CAG framework?",
+      "cag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "rag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "cag_time": 0.8153760433197021,
+      "rag_time": 0.5914793014526367,
+      "time_difference": -0.22389674186706543,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 0.8153760433197021,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 0.5914793014526367,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2025-03-04T17:02:04.905549",
+      "query": "How does CAG compare to traditional RAG in terms of performance?",
+      "cag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "rag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "cag_time": 0.47829747200012207,
+      "rag_time": 0.4551513195037842,
+      "time_difference": -0.02314615249633789,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 0.4780740737915039,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 0.4551513195037842,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2025-03-04T17:02:05.807135",
+      "query": "Explain how CAG eliminates retrieval steps.",
+      "cag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "rag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "cag_time": 0.4678504467010498,
+      "rag_time": 0.42772936820983887,
+      "time_difference": -0.04012107849121094,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 0.4678504467010498,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 0.42772936820983887,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2025-03-04T17:02:06.720938",
+      "query": "What are the key differences between CAG and RAG architectures?",
+      "cag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "rag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "cag_time": 0.455228328704834,
+      "rag_time": 0.450852632522583,
+      "time_difference": -0.0043756961822509766,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 0.455228328704834,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 0.450852632522583,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    },
+    {
+      "timestamp": "2025-03-04T17:02:07.659903",
+      "query": "How does CAG handle context management differently from RAG?",
+      "cag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "rag_response": "Error generating response: Error generating response from gpt4: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_PyY8********************************************FPtW. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "cag_time": 0.45446205139160156,
+      "rag_time": 0.47821974754333496,
+      "time_difference": 0.0237576961517334,
+      "cag_metrics": {
+        "cache_hits": 0,
+        "response_time": 0.45446205139160156,
+        "memory_usage": 3
+      },
+      "rag_metrics": {
+        "response_time": 0.47821974754333496,
+        "num_retrieved": 1,
+        "retriever_type": "hybrid"
+      }
+    }
+  ]
+}

@@ -9,13 +9,14 @@ This project implements a demonstrator agent that compares the Cache-Augmented G
 - Measures and compares performance metrics
 - Generates detailed comparison reports
 - Uses efficient caching mechanisms for improved performance
+- Real time CAG vs RAG comparison on streamlit
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ai-in-pm/Cache-Augmented-Generation-CAG.git
-cd Cache-Augmented-Generation-CAG
+git clone https://github.com/wahidpanda/AI-AGENT-Analysis-of-CAG-vs-RAG
+cd CAG vs RAG Comparison AI AGENT
 ```
 
 2. Create a virtual environment and activate it:

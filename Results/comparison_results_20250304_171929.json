@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-03-04T17:19:29.518194",
+  "query": "what is docker ",
+  "cag_response": "CAG Response to: what is docker ",
+  "rag_response": "RAG Response to: what is docker ",
+  "cag_time": 0.5,
+  "rag_time": 0.7,
+  "time_difference": 0.19999999999999996,
+  "cag_metrics": {
+    "cache_hits": 1,
+    "response_time": 0.5,
+    "memory_usage": 3
+  },
+  "rag_metrics": {
+    "response_time": 0.7,
+    "num_retrieved": 1,
+    "retriever_type": "hybrid"
+  }
+}
